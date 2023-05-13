@@ -1,0 +1,11 @@
+{
+  "html.format.endWithNewline": true,
+  "html.format.extraLiners": "head, body, /html",
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapAttributes": "auto",
+  "editor.formatOnSave": true,
+  "prettier.disableLanguages": ["html"],
+  "[html]": {
+  "editor.defaultFormatter": "vscode.html-language-features"
+  }
+  }

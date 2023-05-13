@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+            /* Header P */
+
+.Portafolio-2{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14px;
+    letter-spacing: 16%;
+    color: #2196F3;
+    position: relative;
+}
+
+.Portafolio-2:hover{
+    color: #2196F3 ;
+}
+
+.Portafolio-2:focus{
+    color: #2196F3 ;
+}
+
+.Portafolio-2::after {
+    content: "";
+    position: absolute;
+    top: 33px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #2196F3;
+    border-radius: 5px;
+}
+
+.Estudio-2,
+.Contactos-2 {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14px;
+    letter-spacing: 16%;
+    color: #212121;
+}
+
+.Estudio-2:hover,
+.Portafolio-2:hover,
+.Contactos-2:hover {
+    color: #2196F3 ;
+
+}
+
+.Estudio-2:focus,
+.Portafolio-2:focus,
+.Contactos-2:focus {
+    color: #2196F3 ;
+    
+
+}
+
+                /* boton */
+                
+.content-7 .container .boton button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin: 5px;
+    cursor: pointer;
+    border: 0px;
+    margin-top: 30px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.container .boton button:focus{
+    background-color: #2196f3;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
+}
+
+.container .boton button:hover{
+    background-color: #2196f3;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
+}
+
+
+            /* Card´s */
+
+.content-8 .contenedor .texto-imagen h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+            /* txt-N */
+
+.content-8 .contenedor .texto-imagen h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+            /* txt-D */
+
+
+.content-8 .contenedor .texto-imagen p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+        /* txt Card Over */
+
+
+.content-8 .contenedor .img-2 .overlay{
+    position: relative;
+    overflow: hidden;
+
+}
+
+.content-8 .contenedor .img-2 .overlay-txt{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    background-color: rgba(33, 150, 243, 0.9);
+
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    padding: 87px 20px;
+
+    display: flex;
+    align-items: center;
+    transform: translateY(100%);
+    transition: transform ease-in 0.25s;
+
+}
+
+.contenedor:hover .img-2 .overlay-txt {
+    transform: translateY(0%);
+
+}
+
+
+
+            /* box card */
+
+.contenedor {
+    display: inline-block;
+    margin: 15px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    max-width: 100%;
+    width: 372.5px;
+    height: auto;
+    border: 1px solid #EEEEEE;
+
+}
+
+.contenedor:hover{
+    display: inline-block;
+    margin: 15px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    max-width: 100%;
+    width: 372.5px;
+    height: auto;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.contenedor-all-main{
+    width: 1217px;
+    height: 1400px;
+}
+
+            /* FOOTER CSS-1 */
