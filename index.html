@@ -130,91 +130,103 @@
 
 
     <section class="content-2">
-
+    
         <div class="container">
+        
+            <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+
+            <!-- BTN -->
+
+        <button class="abrir" data-modal-open>
             
-            <h1>
-                SOLUCIONES EFICACES PARA SU NEGOCIO
-            </h1>
+            Solicite nuestro servicio
 
-                    <!-- BTN -->
-
-            <button class="abrir" data-modal-open>
-                Solicite nuestro servicio
-            </button>
+        </button>
 
         <div class="backdrop is-hidden" data-modal>
 
         <div class="modal">
-        
+
         <button class="close" data-modal-close>
 
-            <span>
-                &times;
-            </span>
-
-        </button>
+        <span>&times;</span>
         
-        <form name="nick-form" autocomplete="on" novalidate>
+        </button>
 
+        <form name="nick-form" autocomplete="on" novalidate action="">
+                    
         <div class="modal-header">
+                        
+            <h5>
 
-            <h5>Deje sus datos, nos contactaremos con usted
+            Deje sus datos, nos contactaremos con usted
+
             </h5>
-
+                    
         </div>
-
-                    <!-- Nombre -->
+                
+            <!-- Nombre -->
 
         <div class="modal-1">
 
-            <label class="Nombre-modal" for="name">Nombre</label>
+        <label class="Nombre-modal" for="name">Nombre</label>
 
-            <input class="modal-for-input" type="text" id="name" required>
+        <input class="modal-for-input" type="text" id="name" name="name" required>
+                        
+        <svg class="people-modal-">
 
-            <svg class="people-modal-">
-                <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#people-modal">
-                </use>
-            </svg>
+        <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#people-modal">
 
+        </use>
+        
+        </svg>
+                    
         </div>
-
-                    <!-- Telf -->
-
+                
+                <!-- Telf -->
+        
         <div class="modal-2">
 
             <label class="Nombre-modal" for="telf">Telefono</label>
-
-            <input class="modal-for-input" type="tel" id="telf">
-
+                        
+            <input class="modal-for-input" type="tel" id="telf" name="telf" required>
+                        
             <svg class="telf-modal-">
-                <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#contact-modal">
-                </use>
+                            
+            <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#contact-modal">
+            </use>
+                        
             </svg>
-
-        </div>
-
+                    
+            </div>
+                    
                     <!-- Mail -->
-
+            
         <div class="modal-3">
 
             <label class="Nombre-modal" for="E-mail">E-mail</label>
-
-            <input class="modal-for-input" type="mail" id="E-mail">
-
+                        
+            <input class="modal-for-input" type="email" id="E-mail" name="email" required>
+                        
             <svg class="mail-modal-">
-                <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#mail-modal">
-                </use>
-            </svg>
+                            
+            <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#mail-modal">
 
+            </use>
+                    
+            </svg>
+                    
         </div>
 
-                    <!-- Comentario -->
-        <div class="modal-4">
+                <!-- Comentario -->
+                    
+            <div class="modal-4">
 
             <label class="Comentario-modal" for="Coment">Comentarios</label>
+                        
+            <textarea class="modal-for-input-comentario" id="Coment" cols="30" rows="10" placeholder="Introduzca el texto" name="comentario" required>
 
-            <textarea class="modal-for-input-comentario" id="Coment" cols="30" rows="10" placeholder="Introduzca el texto"></textarea>
+            </textarea>
 
         </div>
 
@@ -223,18 +235,20 @@
         <div class="modal-5">
 
             <label class="Comentario-modal-check" for="Terminos">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</label>
-
-            <input class="modal-for-input-check" type="checkbox" id="Terminos">
-
+                        
+            <input class="modal-for-input-check" type="checkbox" id="Terminos" name="terminos" required>
+                    
         </div>
-
-                    <!-- btn enviar -->
-
+                    
+                <!-- btn enviar -->
+                    
         <div class="modal-6">
+            
             <input type="submit" value="Enviar">
+                    
         </div>
 
-        </form>
+            </form>
 
         </div>
 
@@ -243,6 +257,7 @@
         </div>
 
     </section>
+
 
                 <!-- BENEFICIOS -->
 
