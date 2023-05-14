@@ -155,12 +155,14 @@
 
         </button>
         
-        <form action="" class="form">
+        <form action="" name="nick-form" autocomplete="on" novalidate class="form">
 
             <h2>Deje sus datos, nos contactaremos con usted
             </h2>
 
+                    <!-- NOMBRE -->
             <label class="userName" for="name">
+
             Nombre
 
             <input class="modal-for-input" type="text" id="name">
@@ -173,8 +175,7 @@
             </svg>
 
             </label>
-
-
+                        <!--Telf -->
             <label class="userTel" for="telf">
             Telefono
 
@@ -186,7 +187,7 @@
             </svg>
 
             </label>
-
+                        <!-- MAIL -->
             <label class="userMail" for="E-mail">
             E-mail
 
@@ -198,16 +199,14 @@
             </svg>
 
             </label>
-
-
+                    <!-- Comentario -->
             <label class="Comentario-modal" for="Coment">
             Comentarios
 
             <textarea class="modal-for-input-comentario" id="Coment" cols="30" rows="10" placeholder="Introduzca el texto"></textarea>
 
             </label>
-
-
+                        <!-- Check -->
             <label class="Comentario-modal-check" for="Terminos">
             Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones
             
@@ -215,9 +214,10 @@
 
             </label>
 
-
         <div class="modal-6">
+
             <input type="submit" value="Enviar">
+
         </div>
 
         </form>

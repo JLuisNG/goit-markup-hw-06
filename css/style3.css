@@ -89,7 +89,23 @@
   padding-left: 45px;
 }
 
-.Nombre-modal{
+.form h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  width: 448px;
+  height: 23px;
+}
+
+.userName,
+.userTel,
+.userMail,
+.userComent{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -97,23 +113,13 @@
   line-height: 14px;
   letter-spacing: 0.01em;
   color: #757575;
-  position: relative;
-  top: 10px;
+  width: 44px;
+  height: 14px;
 
+  position: relative;
+  top: 25px;
 }
 
-.Comentario-modal{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.01em;
-  color: #757575;
-  position: relative;
-  top: 10px;
-
-}
 
 .modal-for-input-comentario{
   width: 100%;
@@ -176,19 +182,6 @@
   border-radius: 0.05em;
   overflow: hidden;
 
-}
-
-.form h2{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 19px;
-  line-height: 23px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  width: 448px;
-  height: 23px;
 }
 
 .modal-for-input-check {
