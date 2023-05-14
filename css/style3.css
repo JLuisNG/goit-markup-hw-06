@@ -180,55 +180,31 @@
 
                 /* SVG-MODAL */
 
-.modal-1{
-  position: relative;
-  top: 15px;
+.form h2{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  width: 448px;
+  height: 23px;
 }
 
-.people-modal- {
-  width: 44px;
-  height: 44px;
-  position: relative;
-  bottom: 33px;
-  left: 10px;
-}
+.userName,
+.userTel,
+.userMail,
+.userComent{
 
-.modal-2 {
-  position: relative;
-  bottom: 25px;
-}
-
-.telf-modal- {
-  width: 44px;
-  height: 44px;
-  position: relative;
-  bottom: 30px;
-  left: 10px;
-
-}
-
-.modal-3 {
-  position: relative;
-  bottom: 75px;
-}
-
-.mail-modal- {
-  width: 44px;
-  height: 44px;
-  position: relative;
-  bottom: 32px;
-  left: 10px;
-
-}
-
-.modal-4{
-  position: relative;
-  bottom: 125px;
-}
-
-.modal-5{
-  position: relative;
-  bottom: 115px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
 }
 
 .modal-for-input-check {
