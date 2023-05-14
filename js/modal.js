@@ -25,7 +25,7 @@
         input.previousElementSibling.style.fill = 'green';
       }
     });
-  });
+});
 
 
 
