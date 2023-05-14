@@ -183,6 +183,15 @@ body {
     text-decoration: underline;
 }
 
+.mail-icon:hover svg.icon use,
+.mail-icon:focus svg.icon use,
+.telf-icon:hover svg.icon use,
+.telf-icon:focus svg.icon use {
+    fill: #2196F3;
+    color: #2196F3;
+    text-decoration: none;
+}
+
 /* seccion de main */
 
 /* background e img + txt*/

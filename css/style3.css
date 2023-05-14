@@ -263,6 +263,35 @@
   left: 25%;
 }
 
+textarea:hover,
+textarea:focus {
+  border-color: #2196F3;
+
+}
+
+.content-2 svg:hover,
+.content-2 svg:focus {
+  fill: #2196F3;
+
+}
+
+.modal-for-input:hover,
+.modal-for-input:focus {
+  border-color: #2196F3;
+}
+
+.modal-for-input:hover+svg use,
+.modal-for-input:focus+svg use {
+  fill: #2196F3;
+}
+
+
+
+            /* Advertencias */
+
+
+
+
                   /* btn footer */
 
 .content-10 .container .modal-7{
@@ -345,5 +374,3 @@
   bottom: 85px;
   left: 520px;
 }
-
-
