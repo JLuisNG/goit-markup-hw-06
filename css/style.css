@@ -140,7 +140,7 @@ body {
     line-height: 1.14px;
     letter-spacing: 16%;
     text-align: left;
-    color: #757575
+    color: #757575;
 }
 
 .telf-container {
@@ -174,17 +174,13 @@ body {
 .mail1:hover,
 .telf:hover {
     color: #2196F3;
-    text-decoration: underline;
-
-
+    text-decoration: none;
 }
 
 .mail1:focus,
 .telf:focus {
     color: #2196F3;
     text-decoration: underline;
-
-
 }
 
 /* seccion de main */
@@ -550,9 +546,9 @@ body {
 
 
 .content-9 {
-
     background-color: #2F303A;
-    width: 1600px;
+    width: 100%;
+    max-width: 1600px;
     height: 252px;
     display: flex;
     flex-direction: column;
@@ -573,10 +569,11 @@ body {
 
 .content-9 .container .Web-Studio {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin: auto;
     height: 80px;
+    position: relative;
+    right: 32px;
 }
 
 .content-9 ul li {

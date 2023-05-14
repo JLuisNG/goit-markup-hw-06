@@ -1,4 +1,4 @@
-/* iconos de la card */
+            /* iconos de la card */
 
 .icono-item {
     fill: #AFB1B8;
@@ -39,7 +39,7 @@
   left: 0;
 }
 
-.close:hover, .close:focus {
+.close:hover{
   color: #2196F3;
   text-decoration: none;
   cursor: pointer;
@@ -69,7 +69,7 @@
 
 .modal{
   background-color: #FFFFFF;
-  margin: 10% auto;
+  margin: 5% auto;
   padding: 40px;
   border: 1px solid #1e47ff38;
   width: 528px;
@@ -79,166 +79,70 @@
 
         /* Contenido modal */
 
-.modal-for-input{
+
+.modal-label-name, 
+.modal-label-tel, 
+.modal-label-mail {
+  display: block;
   width: 100%;
   height: 40px;
-  display: block;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  margin-top: 10px;
-  padding-left: 45px;
+  padding: 10px;
+  outline: none;
 }
 
-.Nombre-modal{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.01em;
-  color: #757575;
+input:hover,
+input:focus {
+  outline: none;
+}
+
+                  /* btn footer */
+
+.content-10 .container .modal-7{
+  display: flex;
+  flex-direction: column;
   position: relative;
-  top: 10px;
-
+  bottom: 305px;
+  left: 200px;
 }
 
-.Comentario-modal{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.01em;
-  color: #757575;
-  position: relative;
-  top: 10px;
-
-}
-
-.modal-for-input-comentario{
-  width: 100%;
-  height: 96px;
-  display: block;
-  border: 1px solid rgba(163, 63, 63, 0.2);
+.modal-for-input-footer {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  margin-top: 10px;
-  padding: 15px;
-  resize: none;
+  margin-top: 25px;
+  padding-left: 10px;
+  background-color: #ffffff00;
+
 }
 
-::-webkit-input-placeholder {
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
-
-.modal-header{
-  width: 448px;
-  height: 23px;
+.Nombre-modal-footer {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
   letter-spacing: 0.03em;
-  color: #212121;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
 }
 
-.Comentario-modal-check {
+.modal-for-input-footer::placeholder {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
+  font-size: 16px;
+  line-height: 20px;
   display: flex;
-  width: 400.62px;
-  height: 24px;
-  position: relative;
-  left: 50px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 
 }
 
-.modal-for-input-check {
-  width: 16px;
-  height: 15px;
-  position: relative;
-  top: 25px;
-  left: 25px;
-  background-color: #FFFFFF;
-  border-radius: 0.05em;
-  overflow: hidden;
-
-}
-
-                /* SVG-MODAL */
-
-.modal-1{
-  position: relative;
-  top: 15px;
-}
-
-.people-modal- {
-  width: 44px;
-  height: 44px;
-  position: relative;
-  bottom: 33px;
-  left: 10px;
-}
-
-.modal-2 {
-  position: relative;
-  bottom: 25px;
-}
-
-.telf-modal- {
-  width: 44px;
-  height: 44px;
-  position: relative;
-  bottom: 30px;
-  left: 10px;
-
-}
-
-.modal-3 {
-  position: relative;
-  bottom: 75px;
-}
-
-.mail-modal- {
-  width: 44px;
-  height: 44px;
-  position: relative;
-  bottom: 32px;
-  left: 10px;
-
-}
-
-.modal-4{
-  position: relative;
-  bottom: 125px;
-}
-
-.modal-5{
-  position: relative;
-  bottom: 115px;
-}
-
-.modal-for-input-check {
-  position: relative;
-  top: -16px;
-  width: 15px;
-  height: 16px;
-}
-
-.modal-6 input{
+.modal-7 .submit{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -260,38 +164,17 @@
   border: none;
 
   position: relative;
-  bottom: 105px;
-  left: 25%;
+  bottom: 50px;
+  left: 375px;
+
+  padding-right: 30px;
 }
 
-                  /* btn footer */
-
-.content-10 .container .modal-7{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.input-sub-svg .svg-sub{
+  width: 30px;
+  height: 30px;
   position: relative;
-  bottom: 350px;
-  left: 300px;
+  bottom: 85px;
+  left: 520px;
 }
 
-.modal-for-input-footer {
-
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  margin-top: 25px;
-  padding-left: 10px;
-  background-color: #ffffff00;
-}
-
-.Nombre-modal-footer {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
