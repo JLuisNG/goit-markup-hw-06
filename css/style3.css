@@ -289,13 +289,7 @@ textarea:focus {
 
             /* Advertencias */
 
-.invalid {
-  border: 2px solid red;
-}
 
-.invalid svg path {
-  fill: red;
-}
 
                   /* btn footer */
 
