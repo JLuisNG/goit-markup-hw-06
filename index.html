@@ -122,9 +122,9 @@
 
         </section>
 
-    </header>
+        </header>
 
-    <main>
+        <main>
 
             <!-- SOLUCIONES TXT AND BUTTON -->
 
@@ -137,7 +137,7 @@
                 SOLUCIONES EFICACES PARA SU NEGOCIO
             </h1>
 
-            <!-- BTN -->
+                    <!-- BTN -->
 
             <button class="abrir" data-modal-open>
                 Solicite nuestro servicio
@@ -146,56 +146,83 @@
         <div class="backdrop is-hidden" data-modal>
 
         <div class="modal">
-
-            <button class="close" data-modal-close>
+        
+        <button class="close" data-modal-close>
 
             <span>
                 &times;
             </span>
 
-            </button>
-
-        <form class="modal-formulario" action="" name="name-formulario" autocomplete="on" novalidate>
-
-                    <!-- Name -->
-
-        <label for="username">
-        Nombre
-
-        <input class="modal-label-name" type="text" name="text" id="username">
-        </label>
-
-                    <!-- Phone -->
-
-        <label for="userphone">
-        Telefono 
-
-        <input class="modal-label-tel" type="tel" name="tel" id="userphone">
-
-        </label>
+        </button>
         
+        <form action="./index.html">
+        <div class="modal-header">
 
-                    <!-- Email -->
+            <h5>Deje sus datos, nos contactaremos con usted
+            </h5>
 
-        <label for="useremail">
-        E-mail
+        </div>
 
-        <input class="modal-label-mail" type="email" name="email" id="useremail">
+        <div class="modal-1">
 
-                    <!-- comentario -->
-    
+            <label class="Nombre-modal" for="name">Nombre</label>
 
+            <input class="modal-for-input" type="text" id="Nombre">
 
-                    <!-- checkbox -->
+            <svg class="people-modal-">
+                <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#people-modal">
+                </use>
+            </svg>
 
-        <label for="checkbox">
-            <input type="checkbox">
-        </label>
+        </div>
 
-        </label>
+        <div class="modal-2">
+
+            <label class="Nombre-modal" for="name">Telefono</label>
+
+            <input class="modal-for-input" type="tel" id="telefono">
+
+            <svg class="telf-modal-">
+                <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#contact-modal">
+                </use>
+            </svg>
+
+        </div>
+
+        <div class="modal-3">
+
+            <label class="Nombre-modal" for="name">E-mail</label>
+
+            <input class="modal-for-input" type="mail" id="E-mail">
+
+            <svg class="mail-modal-">
+                <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#mail-modal">
+                </use>
+            </svg>
+
+        </div>
+
+        <div class="modal-4">
+
+            <label class="Comentario-modal" for="name">Comentarios</label>
+
+            <textarea class="modal-for-input-comentario" name="" id="" cols="30" rows="10" placeholder="Introduzca el texto"></textarea>
+
+        </div>
+
+        <div class="modal-5">
+
+            <label class="Comentario-modal-check" for="Terminos">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</label>
+
+            <input class="modal-for-input-check" type="checkbox" id="Terminados">
+
+        </div>
+
+        <div class="modal-6">
+            <input type="submit" value="Enviar">
+        </div>
 
         </form>
-
 
         </div>
 
