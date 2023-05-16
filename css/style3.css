@@ -68,6 +68,8 @@
 }
 
 .modal{
+  position: relative;
+  bottom: 80px;
   background-color: #FFFFFF;
   margin: 10% auto;
   padding: 40px;
@@ -289,7 +291,7 @@ textarea:focus {
 
             /* Advertencias */
 
-
+            
 
                   /* btn footer */
 
