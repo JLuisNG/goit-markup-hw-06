@@ -7,12 +7,6 @@
     box-sizing: border-box;
 }
 
-section {
-    padding: 0 auto;
-    margin: 0 auto;
-
-}
-
 /* seccion header */
 
 header {
@@ -679,4 +673,41 @@ body {
 
 .back-item-footer:hover {
     background-color: #2196F3;
+}
+
+
+
+.content-1{
+    padding: 47 0 ;
+    margin: 0 auto;
+}
+
+.content-2 {
+    padding: 47 0;
+        margin: 0 auto;
+}
+
+.content-3 {
+    padding: 47 0;
+        margin: 0 auto;
+}
+
+.content-4 {
+    padding: 47 0;
+        margin: 0 auto;
+}
+
+.content-5 {
+    padding: 47 0;
+        margin: 0 auto;
+}
+
+.content-10 {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.content-9 {
+    padding: 47 0;
+    margin: 0 auto;
 }
