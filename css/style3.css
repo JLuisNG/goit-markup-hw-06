@@ -81,7 +81,7 @@
 
         /* Contenido modal */
 
-.modal-for-input{
+.modal-for-input {
   width: 100%;
   height: 40px;
   display: block;
@@ -91,17 +91,17 @@
   padding-left: 45px;
 }
 
-.modal-for-input:placeholder-shown {
-  border: 1px solid #2196F3;
+.modal-for-input:placeholder-shown{
+  border: solid 1px #2196F3;
 }
 
-.modal-for-input:invalid{
-    border: 1px solid red;
-}
-
-.modal-for-input:valid {
-  border: 2px solid green
-}
+.modal-for-input:not(:placeholder-shown
+):required:invalid{
+  border: 1px solid red;
+} 
+.modal-for-input:not(:placeholder-shown):required:valid{
+  border: 2px solid green;
+} 
 
 .Nombre-modal{
   font-family: 'Roboto';
