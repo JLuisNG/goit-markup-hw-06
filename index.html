@@ -165,7 +165,8 @@
 
                                 <label class="Nombre-modal" for="name">Nombre</label>
                                 
-                                <input class="modal-for-input" type="text" id="name" name="name" required minlength="4" maxlength="12">
+                                <input class="modal-for-input" type="text" id="name" name="name" required 
+                                pattern="^[a-zA-Z]+\s[a-zA-Z]+$">
 
                                 <svg class="people-modal-">
 
@@ -181,9 +182,9 @@
 
                             <div class="modal-2">
 
-                                <label class="Nombre-modal" for="telf">Telefono</label>
+                                <label class="Nombre-modal"for="telf">Telefono</label>
 
-                                <input class="modal-for-input" type="tel" id="telf" name="telf" required minlength="4" maxlength="12">
+                                <input class="modal-for-input" type="tel" id="telf" name="telf" required >
 
                                 <svg class="telf-modal-">
 
@@ -255,8 +256,6 @@
             </div>
 
         </section>
-
-
 
                 <!-- BENEFICIOS -->
 
@@ -1056,7 +1055,7 @@
 
         <div class="container">
 
-        <form action="">
+        <form action="" autocomplete="off">
 
         <div class="modal-7">
 

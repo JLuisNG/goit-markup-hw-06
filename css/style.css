@@ -677,29 +677,14 @@ body {
 
 
 
-.content-1{
+.content-1,
+.content-2,
+.content-3,
+.content-4,
+.content-5,
+.content-9{
     padding: 47 0 ;
     margin: 0 auto;
-}
-
-.content-2 {
-    padding: 47 0;
-        margin: 0 auto;
-}
-
-.content-3 {
-    padding: 47 0;
-        margin: 0 auto;
-}
-
-.content-4 {
-    padding: 47 0;
-        margin: 0 auto;
-}
-
-.content-5 {
-    padding: 47 0;
-        margin: 0 auto;
 }
 
 .content-10 {
@@ -707,7 +692,3 @@ body {
     margin: 0 auto;
 }
 
-.content-9 {
-    padding: 47 0;
-    margin: 0 auto;
-}

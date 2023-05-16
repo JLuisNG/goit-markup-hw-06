@@ -91,6 +91,18 @@
   padding-left: 45px;
 }
 
+.modal-for-input:placeholder-shown {
+  border: 1px solid #2196F3;
+}
+
+.modal-for-input:invalid{
+    border: 1px solid red;
+}
+
+.modal-for-input:valid {
+  border: 2px solid green
+}
+
 .Nombre-modal{
   font-family: 'Roboto';
   font-style: normal;
@@ -369,3 +381,8 @@ textarea:focus {
   bottom: 85px;
   left: 520px;
 }
+
+.modal-for-input-footer:focus {
+  color: #2196F3;
+}
+
