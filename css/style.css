@@ -10,10 +10,12 @@
 /* seccion header */
 
 header {
+
     margin: 0 auto;
     width: 1200px;
     max-width: 1600px;
     border-bottom: 1px solid #ECECEC;
+
 }
 
 /* seccion del encabezado */
@@ -39,8 +41,6 @@ header {
     display: flex;
     gap: 25px;
     margin-top: 10px;
-
-
 
 }
 
@@ -181,9 +181,23 @@ body {
 .mail-icon:focus svg.icon use,
 .telf-icon:hover svg.icon use,
 .telf-icon:focus svg.icon use {
+
     fill: #2196F3;
     color: #2196F3;
     text-decoration: none;
+
+}
+
+.mail-icon:hover svg.icon use,
+.mail-icon:focus svg.icon use,
+.telf-icon:hover svg.icon use,
+.telf-icon:focus svg.icon use
+{
+
+    fill: #2196F3;
+    color: #2196F3;
+    text-decoration: none;
+
 }
 
 /* seccion de main */
