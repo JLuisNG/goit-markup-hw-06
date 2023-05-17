@@ -301,12 +301,12 @@ textarea:focus {
 
           /* btn footer */
 
-.content-10 .container .modal-7{
+.modal-7{
   display: flex;
   flex-direction: column;
   position: relative;
-  bottom: 305px;
-  left: 200px;
+  bottom: 100px;
+  left: 300px;
 }
 
 .modal-for-input-footer {
@@ -319,6 +319,9 @@ textarea:focus {
   padding-left: 10px;
   background-color: #ffffff00;
 
+  position: relative;
+  right: 100px;
+
 }
 
 .Nombre-modal-footer {
@@ -330,6 +333,13 @@ textarea:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
+
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  right: 100px;
+
 
 }
 
@@ -369,17 +379,17 @@ textarea:focus {
 
   position: relative;
   bottom: 50px;
-  left: 375px;
+  left: 280px;
 
   padding-right: 30px;
 }
 
-.input-sub-svg .svg-sub{
+.input-sub-svg{
   width: 30px;
   height: 30px;
   position: relative;
   bottom: 85px;
-  left: 520px;
+  left: 420px;
 }
 
 .modal-for-input-footer:focus {

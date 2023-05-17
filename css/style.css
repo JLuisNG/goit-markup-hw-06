@@ -623,6 +623,8 @@ body {
 .content-9 .ubi {
     display: flex;
     align-items: center;
+    position: relative;
+    top: 55px;
 }
 
 .content-9 .ubi h4 {
