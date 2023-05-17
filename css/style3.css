@@ -14,6 +14,7 @@
 
             /* Ventana Modal */
 
+
 .close {
   width: 30px;
   height: 30px;
@@ -82,6 +83,7 @@
         /* Contenido modal */
 
 .modal-for-input {
+
   width: 100%;
   height: 40px;
   display: block;
@@ -99,6 +101,7 @@
 ):required:invalid{
   border: 1px solid red;
 } 
+
 .modal-for-input:not(:placeholder-shown):required:valid{
   border: 2px solid green;
 } 
