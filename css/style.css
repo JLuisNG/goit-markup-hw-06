@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
-
-
 * {
     text-decoration: none;
     list-style: none;
@@ -20,7 +17,7 @@ header {
 
 /* seccion del encabezado */
 
-.content-1 .header-container {
+.Hero__Header-Container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +27,7 @@ header {
 
 }
 
-.nav-container {
+.Hero__Nav-container {
     display: flex;
     gap: 100px;
     align-items: center;
@@ -198,6 +195,17 @@ body {
     color: #2196F3;
     text-decoration: none;
 
+}
+
+.mail-container:hover .icon,
+.mail-container:hover .mail1 {
+    color: #2196F3;
+}
+
+.telf-container:hover .icon,
+.telf-container:hover .telf {
+
+    color: #2196F3;
 }
 
 /* seccion de main */
@@ -463,6 +471,10 @@ body {
 
 }
 
+.svg-container-1 ul .back-item:hover .icono-item {
+    fill: #FFFFFF
+}
+
 /* Clientes */
 
 .content-10 {
@@ -561,7 +573,6 @@ body {
 
 /* Footer seccion final */
 
-
 .content-9 {
     background-color: #2F303A;
     width: 100%;
@@ -638,7 +649,7 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    top: 55px;
+    top: 65px;
 }
 
 .content-9 .ubi h4 {
@@ -671,6 +682,20 @@ body {
     padding: 0;
 }
 
+.icono-item-2 {
+
+    display: inline-block;
+    position: relative;
+    left: 5px;
+    width: 24px;
+    height: 24px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: #ffffff;
+    align-self: center;
+
+}
+
 .social-icons li {
     margin-right: -20px;
 }
@@ -691,7 +716,10 @@ body {
     background-color: #2196F3;
 }
 
-
+.modal-7{
+    position: relative;
+    top: -120px;
+}
 
 .content-1,
 .content-2,
@@ -707,4 +735,3 @@ body {
     padding: 0 auto;
     margin: 0 auto;
 }
-
