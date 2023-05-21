@@ -4,18 +4,19 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
 /* seccion header */
-
 header {
-
     margin: 0 auto;
     width: 1200px;
     max-width: 1600px;
     border-bottom: 1px solid #ECECEC;
-
 }
-
-/* seccion del encabezado */
 
 .Hero__Header-Container {
     display: flex;
@@ -24,7 +25,6 @@ header {
     width: 100%;
     margin: auto;
     height: 80px;
-
 }
 
 .Hero__Nav-container {
@@ -34,14 +34,13 @@ header {
     height: 100%;
 }
 
-.list-nav {
+.Hero__list-nav {
     display: flex;
     gap: 25px;
     margin-top: 10px;
-
 }
 
-.Web-Studio {
+.Hero__Web-Studio {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -49,10 +48,9 @@ header {
     text-align: center;
     text-decoration: none;
     color: #2196F3;
-
 }
 
-.Estudio {
+.Hero__Estudio {
     display: flex;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -63,15 +61,15 @@ header {
     position: relative;
 }
 
-.Estudio:hover {
+.Hero__Estudio:hover {
     color: #2196F3;
 }
 
-.Estudio:focus {
+.Hero__Estudio:focus {
     color: #2196F3;
 }
 
-.Estudio::after {
+.Hero__Estudio::after {
     content: "";
     position: absolute;
     top: 33px;
@@ -82,8 +80,8 @@ header {
     border-radius: 5px;
 }
 
-.Portafolio,
-.Contactos {
+.Hero__Portafolio,
+.Hero__Contactos {
     display: flex;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -93,38 +91,27 @@ header {
     color: #212121;
 }
 
-.Estudio:hover,
-.Portafolio:hover,
-.Contactos:hover {
+.Hero__Estudio:hover,
+.Hero__Portafolio:hover,
+.Hero__Contactos:hover {
     color: #2196F3;
-
 }
 
-.Estudio:focus,
-.Portafolio:focus,
-.Contactos:focus {
+.Hero__Estudio:focus,
+.Hero__Portafolio:focus,
+.Hero__Contactos:focus {
     color: #2196F3;
-
-
 }
 
-body {
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-}
-
-/* Correo Y Telefono */
-
-.contacts-nav {
+.Hero__contacts-nav {
     margin-left: auto;
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-.mail1,
-.telf {
+.Hero__mail1,
+.Hero__telf {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 500;
@@ -134,19 +121,17 @@ body {
     color: #757575;
 }
 
-.telf-container {
+.Hero__telf-container {
     display: flex;
     align-items: center;
 }
 
-.mail-container {
-
+.Hero__mail-container {
     display: flex;
     align-items: center;
-
 }
 
-.icon {
+.Hero__icon {
     width: 35px;
     height: 35px;
     stroke-width: 0;
@@ -154,57 +139,78 @@ body {
     align-self: flex-start;
     margin-bottom: -20px;
     fill: #757575;
-
 }
 
-.icon:hover,
-.icon:focus {
-    fill: #2196F3;
-}
-
-.mail1:hover,
-.telf:hover {
-    color: #2196F3;
-    text-decoration: none;
-}
-
-.mail1:focus,
-.telf:focus {
-    color: #2196F3;
-    text-decoration: underline;
-}
-
-.mail-icon:hover svg.icon use,
-.mail-icon:focus svg.icon use,
-.telf-icon:hover svg.icon use,
-.telf-icon:focus svg.icon use {
-
+.Hero__mail-icon:hover svg.Hero__icon use,
+.Hero__mail-icon:focus svg.Hero__icon use,
+.Hero__telf-icon:hover svg.Hero__icon use,
+.Hero__telf-icon:focus svg.Hero__icon use {
     fill: #2196F3;
     color: #2196F3;
     text-decoration: none;
-
 }
 
-.mail-icon:hover svg.icon use,
-.mail-icon:focus svg.icon use,
-.telf-icon:hover svg.icon use,
-.telf-icon:focus svg.icon use
-{
+.Hero__mail-container:hover .Hero__icon,
+.Hero__mail-container:hover .Hero__mail1 {
+    color: #2196F3;
+}
 
+.Hero__telf-container:hover .Hero__icon,
+.Hero__telf-container:hover .Hero__telf {
+    color: #2196F3;
+}
+
+.Hero__mail-container:focus .Hero__icon,
+.Hero__mail-container:focus .Hero__mail1 {
+    color: #2196F3;
+}
+
+.Hero__telf-container:focus .Hero__icon,
+.Hero__telf-container:focus .Hero__telf {
+    color: #2196F3;
+}
+
+.Hero__mail1:hover .Hero__icon,
+.Hero__mail1:focus .Hero__icon,
+.Hero__telf:hover .Hero__icon,
+.Hero__telf:focus .Hero__icon {
     fill: #2196F3;
     color: #2196F3;
     text-decoration: none;
-
 }
 
-.mail-container:hover .icon,
-.mail-container:hover .mail1 {
+.Hero__mail1:hover,
+.Hero__mail1:focus,
+.Hero__telf:hover,
+.Hero__telf:focus {
     color: #2196F3;
 }
 
-.telf-container:hover .icon,
-.telf-container:hover .telf {
+.Hero__mail1:hover,
+.Hero__mail1:focus,
+.Hero__telf:hover,
+.Hero__telf:focus {
+    color: #2196F3;
+}
 
+.Hero__mail1:active .Hero__icon use,
+.Hero__telf:active .Hero__icon use {
+    fill: #2196F3;
+    color: #2196F3;
+}
+
+.Hero__mail1:active,
+.Hero__telf:active {
+    color: #2196F3;
+}
+
+.Hero__mail-container:active .Hero__icon,
+.Hero__mail-container:active .Hero__mail1 {
+    color: #2196F3;
+}
+
+.Hero__telf-container:active .Hero__icon,
+.Hero__telf-container:active .Hero__telf {
     color: #2196F3;
 }
 
@@ -212,7 +218,7 @@ body {
 
 /* background e img + txt*/
 
-.content-2 .container {
+.Solutions .Solutions__container {
     background-color: #2F303A;
     background-image: url(./image/Imagen\ \(10\).jpg);
     background-repeat: no-repeat;
@@ -227,7 +233,7 @@ body {
     height: 600px;
 }
 
-.content-2 .container h1 {
+.Solutions .Solutions__container .Solutions__title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -240,7 +246,7 @@ body {
 
 }
 
-.content-2 .container .abrir {
+.Solutions .Solutions__container .abrir {
     background-color: #2196F3;
     color: #FFFFFF;
     font-weight: 700;
@@ -253,6 +259,326 @@ body {
     border-radius: 5px;
     margin-top: 20px;
 }
+
+/* Ventana Modal */
+
+
+.modal__close {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 25px;
+    left: 25px;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal__close span {
+    position: relative;
+    top: 1px;
+    left: 0;
+}
+
+.modal__close:hover,
+.modal__close:focus {
+    color: #2196F3;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.backdrop.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1;
+
+}
+
+.modal {
+    position: relative;
+    bottom: 80px;
+    background-color: #FFFFFF;
+    margin: 10% auto;
+    padding: 40px;
+    border: 1px solid #1e47ff38;
+    width: 528px;
+    height: 581px;
+
+}
+
+/* Contenido modal */
+
+.modal__header {
+    width: 448px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/* Nombre - telf - mail - check */
+
+.modal__item_Firts {
+    position: relative;
+    top: 15px;
+}
+
+.modal__label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #757575;
+    position: relative;
+    top: 10px;
+
+}
+
+.modal__input {
+    width: 100%;
+    height: 40px;
+    display: block;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    margin-top: 10px;
+    padding-left: 45px;
+}
+
+.modal__icon_People {
+    width: 44px;
+    height: 44px;
+    position: relative;
+    bottom: 33px;
+    left: 10px;
+}
+
+
+
+.modal__item_Second {
+    position: relative;
+    bottom: 30px;
+}
+
+.modal__icon_Telf {
+    width: 44px;
+    height: 44px;
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+
+}
+
+
+
+.modal__item_Third {
+    position: relative;
+    bottom: 75px;
+}
+
+.modal__icon_Mail {
+    width: 44px;
+    height: 44px;
+    position: relative;
+    bottom: 32px;
+    left: 10px;
+
+}
+
+
+
+.modal__item_Forth {
+    position: relative;
+    bottom: 125px;
+}
+
+.modal__label_Coment {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #757575;
+    position: relative;
+    top: 10px;
+
+}
+
+.modal__textarea {
+    width: 100%;
+    height: 96px;
+    display: block;
+    border: 1px solid rgba(163, 63, 63, 0.2);
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 15px;
+    resize: none;
+}
+
+::-webkit-input-placeholder {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+}
+
+
+
+.modal__item_Fifth {
+    position: relative;
+    bottom: 115px;
+}
+
+.modal__Check_Coment{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    display: flex;
+    width: 400.62px;
+    height: 24px;
+    position: relative;
+    left: 50px;
+
+}
+
+.modal__checkbox{
+    width: 16px;
+    height: 15px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    background-color: #FFFFFF;
+    border-radius: 0.05em;
+    overflow: hidden;
+
+    position: relative;
+    top: -16px;
+    width: 15px;
+    height: 16px;
+
+}
+
+.modal__item_Sixth input {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+
+    width: 200px;
+    height: 50px;
+    color: #FFFFFF;
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+
+    position: relative;
+    bottom: 105px;
+    left: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SVG-MODAL */
+
+
+textarea:hover,
+textarea:focus {
+    border-color: #2196F3;
+
+}
+
+.Solutions svg:hover,
+.Solutions svg:focus {
+    fill: #2196F3;
+
+}
+
+.modal-for-input:hover,
+.modal-for-input:focus {
+    border-color: #2196F3;
+}
+
+.modal-for-input:hover+svg use,
+.modal-for-input:focus+svg use {
+    fill: #2196F3;
+}
+
+
 
 /* beneficios + img */
 
@@ -305,7 +631,7 @@ body {
     background: #F5F4FA;
     border-radius: 4px;
     width: 270px;
-    height: 120px;
+    height: 75%;
     margin-right: 30px;
     margin-bottom: 30px;
     margin-top: 15px;
@@ -322,6 +648,8 @@ body {
     margin: 0 auto;
     align-self: center;
 }
+
+
 
 /* Dedicacion */
 
@@ -475,6 +803,10 @@ body {
     fill: #FFFFFF
 }
 
+.svg-container-1 ul .back-item:focus .icono-item {
+    fill: #FFFFFF
+}
+
 /* Clientes */
 
 .content-10 {
@@ -574,6 +906,7 @@ body {
 /* Footer seccion final */
 
 .content-9 {
+
     background-color: #2F303A;
     width: 100%;
     max-width: 1600px;
@@ -588,6 +921,8 @@ body {
 }
 
 .content-9 .container {
+    position: relative;
+    top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -595,13 +930,15 @@ body {
     width: 100%;
 }
 
-.content-9 .container .Web-Studio {
+.content-9 .container .Hero__Web-Studio {
     display: flex;
     align-items: center;
     margin: auto;
-    height: 80px;
+
     position: relative;
-    right: 32px;
+
+    bottom: 10px;
+
 }
 
 .content-9 ul li {
@@ -649,7 +986,7 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    top: 65px;
+    top: 130px;
 }
 
 .content-9 .ubi h4 {
@@ -718,11 +1055,11 @@ body {
 
 .modal-7{
     position: relative;
-    top: -120px;
+    top: -60px;
 }
 
 .content-1,
-.content-2,
+.Solutions,
 .content-3,
 .content-4,
 .content-5,

@@ -22,9 +22,9 @@
 
 <body>
 
-    <header>
+<header>
 
-                <!-- LINK WEBSTUDIO -->
+    <!-- LINK WEBSTUDIO -->
 
     <section class="Hero">
 
@@ -32,113 +32,87 @@
 
             <nav class="Hero__Nav-container">
 
-                <a class="Web-Studio" href="#" >
+                <a class="Hero__Web-Studio" href="#">
                     WebStudio
                 </a>
 
-                    <!-- ENCABEZADO DE LAS LISTAS -->
+                <!-- ENCABEZADO DE LAS LISTAS -->
 
-            <ul class="list-nav">
+                <ul class="Hero__list-nav">
 
-                <li>
+                    <li>
 
-                <a class="Estudio" href="./index.html" rel="noreferrer noopener">
-                    Estudio
-                </a>
+                        <a class="Hero__Estudio" href="./index.html" rel="noreferrer noopener">
+                            Estudio
+                        </a>
 
-                </li>
-                        
-                <li>
-                            
-                <a class="Portafolio" href="./Portafolio.html" rel="noreferrer noopener">
-                    Portafolio
-                </a>
+                    </li>
 
-                </li>
+                    <li>
 
-                        <!-- LINK CONTACTOS -->
+                        <a class="Hero__Portafolio" href="./Portafolio.html" rel="noreferrer noopener">
+                            Portafolio
+                        </a>
 
-                <li>
-                            
-                <a class="Contactos" href="¿?" rel="noreferrer noopener">
-                    Contactos
-                </a>
+                    </li>
 
-                </li>
+                    <!-- LINK CONTACTOS -->
 
-            </ul>
+                    <li>
+
+                        <a class="Hero__Contactos" href="¿?" rel="noreferrer noopener">
+                            Contactos
+                        </a>
+
+                    </li>
+
+                </ul>
 
             </nav>
 
-            <ul class="contacts-nav">
-
-                    <!-- LINK MAIL -->
-
-                <li class="mail-icon">
-                
-            <div class="mail-container">
-                
-                <svg class="icon">
-                
-                    <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#correo">
-
-                    </use>
-                            
-                </svg>
-
-                <a class="mail1" href="mailto:Info@devstudo.com">
+            <ul class="Hero__contacts-nav">
+            <li class="Hero__mail-icon">
+                <div class="Hero__mail-container">
+                <a class="Hero__mail1" href="mailto:Info@devstudo.com">
+                    <svg class="Hero__icon">
+                    <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#correo"></use>
+                    </svg>
                     Info@devstudo.com
-
                 </a>
-
-            </div>
-
-                </li>
-
-                    <!-- LINK TELF -->
-
-                <li class="telf-icon">
-                        
-            <div class="telf-container">
-                        
-                <svg class="icon">
-                            
-                <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#telefono">
-
-                </use>
-                        
-                </svg>
-
-                <a class="telf" href="tel:+525555296000">
+                </div>
+            </li>
+            <li class="Hero__telf-icon">
+                <div class="Hero__telf-container">
+                <a class="Hero__telf" href="tel:+525555296000">
+                    <svg class="Hero__icon">
+                    <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#telefono"></use>
+                    </svg>
                     +52 55 5529 6000
-
                 </a>
-                        
-            </div>
-
-                </li>
-
+                </div>
+            </li>
             </ul>
 
-            </div>
+        </div>
 
     </section>
 
-    </header>
+</header>
 
-    <main>
+<main>
 
             <!-- SOLUCIONES TXT AND BUTTON -->
 
 
-    <section class="content-2">
+    <section class="Solutions">
 
-            <div class="container">
+            <div class="Solutions__container">
 
-                <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+                <h1 class="Solutions__title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
 
                 <!-- BTN -->
-                <button class="abrir" data-modal-open>
+
+                <button class="solutions__button abrir" data-modal-open>
                     Solicite nuestro servicio
                 </button>
 
@@ -146,13 +120,13 @@
 
             <div class="modal">
 
-                        <button class="close" data-modal-close>
+                        <button class="modal__close" data-modal-close>
                             <span>&times;</span>
                         </button>
 
                         <form name="nick-form" autocomplete="off"  action="">
 
-                            <div class="modal-header">
+                            <div class="modal__header">
 
                                 <h5>
                                     Deje sus datos, nos contactaremos con usted
@@ -162,14 +136,14 @@
 
                                 <!-- Nombre -->
 
-                            <div class="modal-1">
+                            <div class="modal__item_Firts">
 
-                                <label class="Nombre-modal" for="name">Nombre</label>
+                                <label class="modal__label" for="name">Nombre</label>
                                 
-                                <input class="modal-for-input" type="text" id="name" name="name" required 
+                                <input class="modal__input" type="text" id="name" name="name" required 
                                 pattern="^[a-zA-Z]+\s[a-zA-Z]+$">
 
-                                <svg class="people-modal-">
+                                <svg class="modal__icon_People">
 
                                     <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#people-modal">
 
@@ -181,13 +155,13 @@
 
                             <!-- Telf -->
 
-                            <div class="modal-2">
+                            <div class="modal__item_Second">
 
-                                <label class="Nombre-modal"for="telf">Telefono</label>
+                                <label class="modal__label"for="telf">Telefono</label>
 
-                                <input class="modal-for-input" type="tel" id="telf" name="telf" required >
+                                <input class="modal__input" type="tel" id="telf" name="telf" required >
 
-                                <svg class="telf-modal-">
+                                <svg class="modal__icon_Telf">
 
                                     <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#contact-modal">
 
@@ -199,12 +173,12 @@
 
                             <!-- Mail -->
 
-                            <div class="modal-3">
+                            <div class="modal__item_Third">
 
-                                <label class="Nombre-modal" for="E-mail">E-mail</label>
-                                <input class="modal-for-input" type="email" id="E-mail" name="email" required>
+                                <label class="modal__label" for="E-mail">E-mail</label>
+                                <input class="modal__input" type="email" id="E-mail" name="email" required>
 
-                                <svg class="mail-modal-">
+                                <svg class="modal__icon_Mail">
 
                                     <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#mail-modal">
 
@@ -216,11 +190,11 @@
 
                             <!-- Comentario -->
 
-                            <div class="modal-4">
+                            <div class="modal__item_Forth">
 
-                                <label class="Comentario-modal" for="Coment">Comentarios</label>
+                                <label class="modal__label_Coment" for="Coment">Comentarios</label>
 
-                                <textarea class="modal-for-input-comentario" id="Coment" cols="30" rows="10" placeholder="Introduzca el texto" name="Coment">
+                                <textarea class="modal__textarea" id="Coment" cols="30" rows="10" placeholder="Introduzca el texto" name="Coment">
 
                                 </textarea>
 
@@ -228,21 +202,21 @@
 
                             <!-- Terminos -->
 
-                            <div class="modal-5">
+                            <div class="modal__item_Fifth">
 
-                                <label class="Comentario-modal-check" for="Terminos">
+                                <label class="modal__Check_Coment" for="Terminos">
 
                                 Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones
 
                                 </label>
 
-                                <input class="modal-for-input-check" type="checkbox" id="Terminos" name="terminos" required minlength="4" maxlength="12">
+                                <input class="modal__checkbox" type="checkbox" id="Terminos" name="terminos" required>
 
                             </div>
 
                             <!-- btn enviar -->
 
-                            <div class="modal-6">
+                            <div class="modal__item_Sixth">
 
                                 <input type="submit" value="Enviar">
 
@@ -267,7 +241,9 @@
             <!-- svg arc -->
 
             <ul>
-                <li class="svg-container">
+                <li>
+                
+                <a class="svg-container" href="#">
 
                 <svg class="icon-2">
 
@@ -277,13 +253,17 @@
 
                 </svg>
 
+                </a>
+
                 </li>
 
             </ul>
 
             <ul>
 
-                <li class="svg-container">
+                <li>
+
+                <a class="svg-container" href="#">
 
                 <svg class="icon-2">
 
@@ -293,13 +273,17 @@
 
                 </svg>
 
+                </a>
+
                 </li>
 
             </ul>
 
             <ul>
 
-                <li class="svg-container">
+                <li>
+
+                <a class="svg-container" href="#">
 
                 <svg class="icon-2">
 
@@ -309,13 +293,17 @@
 
                 </svg>
 
+                </a>
+
                 </li>
 
             </ul>
 
             <ul>
 
-                <li class="svg-container">
+                <li>
+
+                <a class="svg-container" href="#">
 
                 <svg class="icon-2">
 
@@ -324,6 +312,8 @@
                 </use>
 
                 </svg>
+
+                </a>
 
                 </li>
 
@@ -497,6 +487,8 @@
                     
             <ul>
 
+                <a href="#">
+
                 <li class="back-item">
 
                 <svg class="icono-item">
@@ -509,18 +501,26 @@
 
                 </li>
 
+                </a>
+
+                <a href="#">
+
                 <li class="back-item">
 
                 <svg class="icono-item">
 
                 <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#twitter">
 
-
                 </use>
 
                 </svg>
 
+                
                 </li>
+                
+                </a>
+
+                <a href="#">
 
                 <li class="back-item">
 
@@ -534,6 +534,10 @@
 
                 </li>
 
+                </a>
+
+                <a href="#">
+
                 <li class="back-item">
 
                 <svg class="icono-item">
@@ -545,6 +549,8 @@
                 </svg>
 
                 </li>
+
+                </a>
 
             </ul>
 
@@ -568,55 +574,72 @@
             <div class="svg-container-1">
                     
             <ul>
-    
+
+                <a href="#">
+
                 <li class="back-item">
-    
+
                 <svg class="icono-item">
 
                 <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#instagram">
-    
+
                 </use>
 
                 </svg>
 
                 </li>
-    
+
+                </a>
+
+                <a href="#">
+
                 <li class="back-item">
 
                 <svg class="icono-item">
 
                 <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#twitter">
-    
+
                 </use>
-    
+
                 </svg>
 
+                
                 </li>
-    
+                
+                </a>
+
+                <a href="#">
+
                 <li class="back-item">
 
                 <svg class="icono-item">
 
                 <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#facebook">
-    
+
                 </use>
-    
+
                 </svg>
 
                 </li>
-    
+
+                </a>
+
+                <a href="#">
+
                 <li class="back-item">
 
                 <svg class="icono-item">
 
                 <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#linkedin">
-    
+
                 </use>
-    
+
                 </svg>
-    
+
                 </li>
-    
+
+                </a>
+
             </ul>
     
     
@@ -639,55 +662,72 @@
             <div class="svg-container-1">
                     
             <ul>
-    
+
+                <a href="#">
+
                 <li class="back-item">
-    
+
                 <svg class="icono-item">
 
                 <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#instagram">
-    
+
                 </use>
 
                 </svg>
 
                 </li>
-    
+
+                </a>
+
+                <a href="#">
+
                 <li class="back-item">
 
                 <svg class="icono-item">
 
                 <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#twitter">
-    
+
                 </use>
-    
+
                 </svg>
 
+                
                 </li>
-    
+                
+                </a>
+
+                <a href="#">
+
                 <li class="back-item">
 
                 <svg class="icono-item">
 
                 <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#facebook">
-    
+
                 </use>
-    
+
                 </svg>
 
                 </li>
-    
+
+                </a>
+
+                <a href="#">
+
                 <li class="back-item">
 
                 <svg class="icono-item">
 
                 <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#linkedin">
-    
+
                 </use>
-    
+
                 </svg>
-    
+
                 </li>
-    
+
+                </a>
+
             </ul>
     
     
@@ -710,55 +750,72 @@
                 <div class="svg-container-1">
                     
             <ul>
-    
+
+                <a href="#">
+
                 <li class="back-item">
-    
+
                 <svg class="icono-item">
 
                 <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#instagram">
-    
+
                 </use>
-                
+
                 </svg>
 
                 </li>
-    
+
+                </a>
+
+                <a href="#">
+
                 <li class="back-item">
 
                 <svg class="icono-item">
 
                 <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#twitter">
-    
+
                 </use>
-    
+
                 </svg>
 
+                
                 </li>
-    
+                
+                </a>
+
+                <a href="#">
+
                 <li class="back-item">
 
                 <svg class="icono-item">
 
                 <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#facebook">
-    
+
                 </use>
-    
+
                 </svg>
 
                 </li>
-    
+
+                </a>
+
+                <a href="#">
+
                 <li class="back-item">
 
                 <svg class="icono-item">
 
                 <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#linkedin">
-    
+
                 </use>
-    
+
                 </svg>
-    
+
                 </li>
-    
+
+                </a>
+
             </ul>
     
     
@@ -798,6 +855,8 @@
 
             <ul>
 
+                <a href="#">
+
                 <li class="fondo-svg">
 
                 <svg class="icn">
@@ -810,9 +869,13 @@
 
                 </li>
 
+                </a>
+
             </ul>
 
             <ul>
+
+                <a href="#">
 
                 <li class="fondo-svg">
 
@@ -826,9 +889,13 @@
 
                 </li>
 
+                </a>
+
             </ul>
 
             <ul>
+
+                <a href="#">
 
                 <li class="fondo-svg">
 
@@ -840,10 +907,15 @@
 
                 </svg>
 
+                </li>
+
+                </a>
+
             </ul>
 
             <ul>
-                    <!-- svg-icon -->
+                
+                <a href="#">
 
                 <li class="fondo-svg">
 
@@ -857,9 +929,13 @@
 
                 </li>
 
+                </a>
+
             </ul>
 
             <ul>
+
+                <a href="#">
 
                 <li class="fondo-svg">
 
@@ -873,9 +949,13 @@
 
                 </li>
 
+                </a>
+
             </ul>
 
             <ul>
+
+                <a href="#">
 
                 <li class="fondo-svg">
 
@@ -889,6 +969,8 @@
 
                 </li>
 
+                </a>
+
             </ul>
 
             </div>
@@ -898,9 +980,9 @@
 
     </section>
 
-    </main>
+</main>
 
-    <footer>
+<footer>
 
             <!-- Seccion del footer -->
 
@@ -916,7 +998,7 @@
 
                 <li>
 
-                <a class="Web-Studio" href="#">WebStudio
+                <a class="Hero__Web-Studio" href="#">WebStudio
 
                 </a>
 
@@ -994,6 +1076,8 @@
 
             <ul class="social-icons">
 
+                <a href="#">
+
                 <li class="back-item-footer">
 
                 <svg class="icono-item-2">
@@ -1005,6 +1089,10 @@
                 </svg>
 
                 </li>
+
+                </a>
+
+                <a href="#">
                         
                 <li class="back-item-footer">
 
@@ -1018,6 +1106,10 @@
 
                 </li>
 
+                </a>
+
+                <a href="#">
+
                 <li class="back-item-footer">
 
                 <svg class="icono-item-2">
@@ -1029,6 +1121,10 @@
                 </svg>
 
                 </li>
+
+                </a>
+
+                <a href="#">
 
                 <li class="back-item-footer">
 
@@ -1042,6 +1138,8 @@
 
                 </li>
 
+                </a>
+
             </ul>
 
             </div>
@@ -1054,7 +1152,7 @@
 
         <form name="nick-form-Footer" autocomplete="off" action="">
 
-        <label class="Nombre-modal-footer" for="E-mail-footer">SUSCRÍBASE al boletín informativo</label>
+        <label class="modal__label-footer" for="E-mail-footer">SUSCRÍBASE al boletín informativo</label>
 
         <input class="modal-for-input-footer" type="email" id="E-mail-footer" name="email" placeholder="Correo electronico" required>
 
@@ -1075,9 +1173,9 @@
 
     </section>
 
-    </footer>
+</footer>
 
-    <script src="./js/modal.js"></script>
+<script src="./js/modal.js"></script>
 
 </body>
 
